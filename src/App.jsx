@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CheckInternetConnection from './components/CheckInternetConnection';
 import Title from './components/layout/Title';
+import './index.css'
 
 const HomePage = React.lazy(() => import('homePage/App'));
 const AboutPage = React.lazy(() => import('aboutPage/App'));
